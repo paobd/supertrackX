@@ -77,7 +77,6 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.high-definition-config": {
-<<<<<<< Updated upstream
       "version": "10.5.0",
       "depth": 1,
       "source": "registry",
@@ -85,14 +84,6 @@
         "com.unity.render-pipelines.core": "10.5.0"
       },
       "url": "https://packages.unity.com"
-=======
-      "version": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "7.5.3"
-      }
->>>>>>> Stashed changes
     },
     "com.unity.searcher": {
       "version": "4.3.2",

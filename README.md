@@ -1,2 +1,0 @@
-# supertrackX
- Desarrollo de Videojuego
