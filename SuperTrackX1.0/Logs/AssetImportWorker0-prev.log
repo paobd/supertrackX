@@ -15,11 +15,11 @@ D:/repositorios/supertrackX/SuperTrackX1.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-27540
+13890
 Successfully changed project path to: D:/repositorios/supertrackX/SuperTrackX1.0
 D:/repositorios/supertrackX/SuperTrackX1.0
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 131.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003667 seconds.
+Registered in 0.002528 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 117.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.788 seconds
+- Completed reload, in  2.263 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005351 seconds.
+Registered in 0.004529 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 139.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 131.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.265 seconds
+- Completed reload, in  2.084 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.5 MB.
-System memory in use after: 225.8 MB.
+System memory in use before: 225.7 MB.
+System memory in use after: 225.9 MB.
 
 Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 5202.
-Total: 9.167900 ms (FindLiveObjects: 1.168500 ms CreateObjectMapping: 0.332600 ms MarkObjects: 7.548100 ms  DeleteObjects: 0.115400 ms)
+Total: 8.140500 ms (FindLiveObjects: 0.541300 ms CreateObjectMapping: 0.170300 ms MarkObjects: 7.320900 ms  DeleteObjects: 0.105600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,297 +81,188 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/pista
-  artifactKey: Guid(f5f71b48d0c9f9d40aa404f216655a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista using Guid(f5f71b48d0c9f9d40aa404f216655a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25044c4c97818b05e460be57ae33775c') in 0.015449 seconds 
-  Import took 0.023612 seconds .
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset
+  artifactKey: Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset using Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413ac55e9f60d50db9faaf525f813bb6') in 0.052747 seconds 
+  Import took 0.059897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.455111 seconds.
-  path: Assets/pista/pista1.fbx
-  artifactKey: Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1.fbx using Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DecalGizmo.png
+  artifactKey: Guid(b057b73ec5a603e4aa80ccf4b34db0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DecalGizmo.png using Guid(b057b73ec5a603e4aa80ccf4b34db0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a809759fd229d533296775e5ceb6159a') in 0.113698 seconds 
+  Import took 0.122193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset
+  artifactKey: Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset using Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73800fca1cfa185abf01eb8b0ab61466') in 0.030719 seconds 
+  Import took 0.040858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ReflectionKernelMapping.png
+  artifactKey: Guid(82eec49626a00b047ba86244607816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ReflectionKernelMapping.png using Guid(82eec49626a00b047ba86244607816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6da544440932c09402243d1cd5bb818') in 0.014552 seconds 
+  Import took 0.022002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset using Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75b5863a2f741270f1fb09cb70ab59') in 0.023104 seconds 
+  Import took 0.030495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DefaultHDRISky.exr
+  artifactKey: Guid(8253d41e6e8b11a4cbe77a4f8f82934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DefaultHDRISky.exr using Guid(8253d41e6e8b11a4cbe77a4f8f82934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0a19838cca0c04fe8af7d1c5b10203') in 0.068615 seconds 
+  Import took 0.076014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset
+  artifactKey: Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset using Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea70afa1fe30f183cb2b9a1e82ccbbc') in 0.017953 seconds 
+  Import took 0.025553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga
+  artifactKey: Guid(a3ad2df0e49aaa341a3b3a80f93b3f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga using Guid(a3ad2df0e49aaa341a3b3a80f93b3f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6cc46e631b5a3375956fd2c25b82b') in 0.017651 seconds 
+  Import took 0.025125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset using Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2582450f2e0d1c1652d19f9843628a') in 0.022412 seconds 
+  Import took 0.030018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ShadowKernelMapping.asset
+  artifactKey: Guid(98a5a16e4aad05b4b8e1c1af5f8e9fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ShadowKernelMapping.asset using Guid(98a5a16e4aad05b4b8e1c1af5f8e9fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2911efa49c55b0e7c8355475c8d7543') in 0.085829 seconds 
+  Import took 0.093598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.678780 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures
+  artifactKey: Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures using Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3944ae16179dc1da9545df752a5f4417') in 0.031754 seconds 
+  Import took 0.041010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019634 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Free_Car_Texture_Atlas.png
+  artifactKey: Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Free_Car_Texture_Atlas.png using Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ac31cd4681b4b1d356605217b48202') in 0.075865 seconds 
+  Import took 0.085612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.188505 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
+  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
- -> (artifact id: '69d23334a0071e4d3d731b2ad5ed716a') in 1.153162 seconds 
-  Import took 1.166829 seconds .
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+ -> (artifact id: '3126bd26ed965f8351b674ee43a8c2e7') in 1.019455 seconds 
+  Import took 1.029463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009397 seconds.
-  path: Assets/pista/pista1.fbx
-  artifactKey: Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1.fbx using Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d23334a0071e4d3d731b2ad5ed716a') in 0.084344 seconds 
-  Import took 0.094510 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
+  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec5f458bbee0226c93c7e181100cb47') in 0.049583 seconds 
+  Import took 0.058298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.358077 seconds.
-  path: Assets/pista/pista1 1.fbx
-  artifactKey: Guid(8e71612dd5d449944a44b94de809c43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1 1.fbx using Guid(8e71612dd5d449944a44b94de809c43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdf6f624e2b3195fff8722628afeef6') in 0.064915 seconds 
-  Import took 0.075639 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
+  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3126bd26ed965f8351b674ee43a8c2e7') in 0.052147 seconds 
+  Import took 0.061170 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 152.080706 seconds.
-  path: Assets/pista/pista1.fbx
-  artifactKey: Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1.fbx using Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed33350b36ab0333ca5d32bbc5b01e77') in 0.053904 seconds 
-  Import took 0.063119 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
+  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec5f458bbee0226c93c7e181100cb47') in 0.055323 seconds 
+  Import took 0.065115 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 774.127547 seconds.
-  path: Assets/pista/pista1 1.fbx
-  artifactKey: Guid(8e71612dd5d449944a44b94de809c43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1 1.fbx using Guid(8e71612dd5d449944a44b94de809c43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da03c8933f381310270790dc7e58168') in 0.062746 seconds 
-  Import took 0.072609 seconds .
+  Time since last request: 0.000233 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
+  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14103e16c2018da539b0efa3e0b3eb43') in 0.098866 seconds 
+  Import took 0.107941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 201.680555 seconds.
-  path: Assets/terreno/NewLayer 1.terrainlayer
-  artifactKey: Guid(205bbbe1c050e9042ba6d96401fd912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/terreno/NewLayer 1.terrainlayer using Guid(205bbbe1c050e9042ba6d96401fd912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83bbe6a55b9f6b3d57c02fd61554574') in 0.041656 seconds 
-  Import took 0.054086 seconds .
+  Time since last request: 0.000611 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
+  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aeee030442a870813ba4305df40de') in 0.053535 seconds 
+  Import took 0.061958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/terreno/pavement-texture.jpg
-  artifactKey: Guid(b72d8dca48acf1c4590fc8ccf77ed8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/terreno/pavement-texture.jpg using Guid(b72d8dca48acf1c4590fc8ccf77ed8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305174a7f95770f790ee4d031bd59d68') in 0.081038 seconds 
-  Import took 0.091051 seconds .
+  Time since last request: 0.004492 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
+  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aeee030442a870813ba4305df40de') in 0.054148 seconds 
+  Import took 0.063714 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/terreno/NewLayer 1.terrainlayer
-  artifactKey: Guid(205bbbe1c050e9042ba6d96401fd912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/terreno/NewLayer 1.terrainlayer using Guid(205bbbe1c050e9042ba6d96401fd912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83bbe6a55b9f6b3d57c02fd61554574') in 0.016121 seconds 
-  Import took 0.025350 seconds .
+  Time since last request: 473.621300 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
+  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9328059f94ab49f91ce5164379f30eb') in 0.044200 seconds 
+  Import took 0.055233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/terreno/PinClipart.com_arrow-clipart-black-and_5774186.png
-  artifactKey: Guid(92dc30ad41822fb44ad5c4f1a680c593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/terreno/PinClipart.com_arrow-clipart-black-and_5774186.png using Guid(92dc30ad41822fb44ad5c4f1a680c593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aded7e9fd8f876919198e076ea23455') in 0.055300 seconds 
-  Import took 0.068644 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
+  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32c4d4419af2bae7853cac25d6560ac') in 0.068571 seconds 
+  Import took 0.077612 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.591898 seconds.
-  path: Assets/pista/pista1.fbx
-  artifactKey: Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1.fbx using Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1804042bb7ac14b0de6b00096550b2e') in 0.059506 seconds 
-  Import took 0.069733 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006193 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.153 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.7 MB.
-System memory in use after: 218.0 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5382.
-Total: 9.562600 ms (FindLiveObjects: 0.539500 ms CreateObjectMapping: 0.327700 ms MarkObjects: 8.642000 ms  DeleteObjects: 0.051900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 829.530039 seconds.
-  path: Assets/pista/pista1.fbx
-  artifactKey: Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pista/pista1.fbx using Guid(4cf4047384891c749a144fa4f64ad83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9716c40c330e306588ddf4da8fc9c7') in 0.732771 seconds 
-  Import took 0.745860 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
+  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa7b0c375b862fa722fb9b21d58ac24') in 0.047304 seconds 
+  Import took 0.057329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 172.486352 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
-  artifactKey: Guid(6e4ae4064600d784cac1e41a9e6f2e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader using Guid(6e4ae4064600d784cac1e41a9e6f2e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b69d5c2818a10209890fd0d00a6d9a') in 0.014167 seconds 
-  Import took 0.040904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.482094 seconds.
-  path: Assets/HDRPDefaultResources/DefaultSceneRoot.prefab
-  artifactKey: Guid(c5a6f8e8429d51f4c9c2b7181bd73c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultSceneRoot.prefab using Guid(c5a6f8e8429d51f4c9c2b7181bd73c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac9ab57a1ab8227baf47431a01949cc') in 0.102852 seconds 
-  Import took 0.118570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.435738 seconds.
-  path: Assets/ARCADE - FREE Racing Car/More cars.png
-  artifactKey: Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/More cars.png using Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb99b2cf705aa48a0918323801288d0') in 0.063561 seconds 
-  Import took 0.082349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.953181 seconds.
-  path: Assets/Modelos/Escenario
-  artifactKey: Guid(585031538a1020f40ab38b932765314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/Escenario using Guid(585031538a1020f40ab38b932765314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828da55cc06d2457e2976de3f73e2eed') in 0.009164 seconds 
-  Import took 0.055901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.047097 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultSkybox.exr
-  artifactKey: Guid(a615f6de0224d55408b4e74da3b0bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultSkybox.exr using Guid(a615f6de0224d55408b4e74da3b0bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e583d76d236d0d9f5457d9cce24f2') in 0.118372 seconds 
-  Import took 0.157591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001970 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultSkybox.exr
-  artifactKey: Guid(a615f6de0224d55408b4e74da3b0bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultSkybox.exr using Guid(a615f6de0224d55408b4e74da3b0bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e583d76d236d0d9f5457d9cce24f2') in 0.022177 seconds 
-  Import took 0.033782 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005418 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.414 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 6.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.8 MB.
-System memory in use after: 218.2 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5545.
-Total: 12.607600 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.208500 ms MarkObjects: 11.783100 ms  DeleteObjects: 0.049800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004727 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.382 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.8 MB.
-System memory in use after: 218.3 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5548.
-Total: 10.381100 ms (FindLiveObjects: 0.868000 ms CreateObjectMapping: 0.452300 ms MarkObjects: 9.013200 ms  DeleteObjects: 0.046000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1866.549471 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Cylinder.fbx
-  artifactKey: Guid(accb6d90f0d50fe4ca0f68159b4323de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Cylinder.fbx using Guid(accb6d90f0d50fe4ca0f68159b4323de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3aff01604a80bf91b7d28bf02ec926') in 1.009426 seconds 
-  Import took 1.051793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Sphere.fbx
-  artifactKey: Guid(9e0af751bc36ea146940ba245193e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Sphere.fbx using Guid(9e0af751bc36ea146940ba245193e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c62d5f43696407430cdc5fc06942a79') in 0.104189 seconds 
-  Import took 0.134297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000746 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/HumanEyeModel.fbx
-  artifactKey: Guid(bc7f614d61b9b2a49a9ca3530b20da5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/HumanEyeModel.fbx using Guid(bc7f614d61b9b2a49a9ca3530b20da5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017d380ddfb1c3cf45f1e134a925ed7d') in 0.119522 seconds 
-  Import took 0.142178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall_Base.fbx
-  artifactKey: Guid(232ab27f257e8524eacc2e73daf536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall_Base.fbx using Guid(232ab27f257e8524eacc2e73daf536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb473ebdc9146c4b5925e8f74ff60996') in 0.090821 seconds 
-  Import took 0.135962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Disc.fbx
-  artifactKey: Guid(aa0197e8182e0924897ca6c14966b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Disc.fbx using Guid(aa0197e8182e0924897ca6c14966b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0883adbee6efefe5714ababc882365f4') in 0.097395 seconds 
-  Import took 0.112803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall.fbx
-  artifactKey: Guid(abd6f93423e74814797118f1c6d9393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall.fbx using Guid(abd6f93423e74814797118f1c6d9393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417dc66bd42394f39f90cea0fd233721') in 0.079467 seconds 
-  Import took 0.105323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Quad.fbx
-  artifactKey: Guid(1d5a8595286f94f4bb54171d49f473c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Quad.fbx using Guid(1d5a8595286f94f4bb54171d49f473c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d3084cbed0bba359cf830339c409c') in 0.083724 seconds 
-  Import took 0.094881 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
+  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707c5bc47e4f9a549b6130147dcee6d3') in 0.065031 seconds 
+  Import took 0.073525 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -15,11 +15,11 @@ D:/repositorios/supertrackX/SuperTrackX1.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13890
+9564
 Successfully changed project path to: D:/repositorios/supertrackX/SuperTrackX1.0
 D:/repositorios/supertrackX/SuperTrackX1.0
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 127.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 151.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002528 seconds.
+Registered in 0.002332 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 125.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.263 seconds
+- Completed reload, in  2.580 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004529 seconds.
+Registered in 0.006050 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 131.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 139.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.084 seconds
+- Completed reload, in  2.156 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.7 MB.
-System memory in use after: 225.9 MB.
+System memory in use before: 225.8 MB.
+System memory in use after: 226.0 MB.
 
 Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 5202.
-Total: 8.140500 ms (FindLiveObjects: 0.541300 ms CreateObjectMapping: 0.170300 ms MarkObjects: 7.320900 ms  DeleteObjects: 0.105600 ms)
+Total: 9.521800 ms (FindLiveObjects: 0.515900 ms CreateObjectMapping: 0.193700 ms MarkObjects: 8.675100 ms  DeleteObjects: 0.134100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,188 +81,698 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset
-  artifactKey: Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineResources.asset using Guid(3ce144cff5783da45aa5d4fdc2da14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413ac55e9f60d50db9faaf525f813bb6') in 0.052747 seconds 
-  Import took 0.059897 seconds .
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab using Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+ -> (artifact id: 'fa800198ff0a9c9f4e5d4176723fbbc9') in 1.261750 seconds 
+  Import took 1.282547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DecalGizmo.png
-  artifactKey: Guid(b057b73ec5a603e4aa80ccf4b34db0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DecalGizmo.png using Guid(b057b73ec5a603e4aa80ccf4b34db0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a809759fd229d533296775e5ceb6159a') in 0.113698 seconds 
-  Import took 0.122193 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 5.mat
+  artifactKey: Guid(8a0e6d53c6b379e4aae0c3f83c28d69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 5.mat using Guid(8a0e6d53c6b379e4aae0c3f83c28d69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759e00e9beae955322152afc12b0ab8') in 0.178200 seconds 
+  Import took 0.205608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset
-  artifactKey: Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/HDRenderPipelineRayTracingResources.asset using Guid(ba6e7f30e5cffc249a8bf7ee5756c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73800fca1cfa185abf01eb8b0ab61466') in 0.030719 seconds 
-  Import took 0.040858 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b50f6cf8989c836fbd6aa04129269c') in 0.095833 seconds 
+  Import took 0.146042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ReflectionKernelMapping.png
-  artifactKey: Guid(82eec49626a00b047ba86244607816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ReflectionKernelMapping.png using Guid(82eec49626a00b047ba86244607816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6da544440932c09402243d1cd5bb818') in 0.014552 seconds 
-  Import took 0.022002 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7250ff1f61e717f5b0ba7bf02d3008d4') in 0.059477 seconds 
+  Import took 0.071784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset
-  artifactKey: Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Foliage Diffusion Profile.asset using Guid(2384dbf2c1c420f45a792fbc315fbfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75b5863a2f741270f1fb09cb70ab59') in 0.023104 seconds 
-  Import took 0.030495 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da2feae5eb38f233c688f1c2ab75842') in 0.064103 seconds 
+  Import took 0.074492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DefaultHDRISky.exr
-  artifactKey: Guid(8253d41e6e8b11a4cbe77a4f8f82934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DefaultHDRISky.exr using Guid(8253d41e6e8b11a4cbe77a4f8f82934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0a19838cca0c04fe8af7d1c5b10203') in 0.068615 seconds 
-  Import took 0.076014 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 4.mat
+  artifactKey: Guid(a269281bc94fa6946b901f3ae8046bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 4.mat using Guid(a269281bc94fa6946b901f3ae8046bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4964a5e6b639c33f83628205a59274f3') in 0.051167 seconds 
+  Import took 0.067424 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset
-  artifactKey: Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/defaultDiffusionProfile.asset using Guid(2b7005ba3a4d8474b8cdc34141ad766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea70afa1fe30f183cb2b9a1e82ccbbc') in 0.017953 seconds 
-  Import took 0.025553 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab using Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7ca7a0e8e173a3e30ed60337ff833') in 0.102312 seconds 
+  Import took 0.111606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga
-  artifactKey: Guid(a3ad2df0e49aaa341a3b3a80f93b3f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga using Guid(a3ad2df0e49aaa341a3b3a80f93b3f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6cc46e631b5a3375956fd2c25b82b') in 0.017651 seconds 
-  Import took 0.025125 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab using Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d3f04bbd584adef934ab2d82763dea') in 0.052762 seconds 
+  Import took 0.076248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset
-  artifactKey: Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Skin Diffusion Profile.asset using Guid(404820c4cf36ad944862fa59c56064f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2582450f2e0d1c1652d19f9843628a') in 0.022412 seconds 
-  Import took 0.030018 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 3.mat
+  artifactKey: Guid(5dc31e75c5b919f4cae1be4789ac0397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 3.mat using Guid(5dc31e75c5b919f4cae1be4789ac0397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1bad675c7206ac0f695110f5692627') in 0.070008 seconds 
+  Import took 0.090462 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ShadowKernelMapping.asset
-  artifactKey: Guid(98a5a16e4aad05b4b8e1c1af5f8e9fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/ShadowKernelMapping.asset using Guid(98a5a16e4aad05b4b8e1c1af5f8e9fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2911efa49c55b0e7c8355475c8d7543') in 0.085829 seconds 
-  Import took 0.093598 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab using Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3b361cf88e8861fcefc6ad211be72f') in 0.077311 seconds 
+  Import took 0.095540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.678780 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Textures
-  artifactKey: Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Textures using Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3944ae16179dc1da9545df752a5f4417') in 0.031754 seconds 
-  Import took 0.041010 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab using Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a14876c440b211e4220478fbecae43') in 0.072350 seconds 
+  Import took 0.082054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019634 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Textures/Free_Car_Texture_Atlas.png
-  artifactKey: Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Textures/Free_Car_Texture_Atlas.png using Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ac31cd4681b4b1d356605217b48202') in 0.075865 seconds 
-  Import took 0.085612 seconds .
+  Time since last request: 0.000440 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d49cbbfe0b273518cdea56f469a5377') in 0.057994 seconds 
+  Import took 0.075864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.188505 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
-  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
- -> (artifact id: '3126bd26ed965f8351b674ee43a8c2e7') in 1.019455 seconds 
-  Import took 1.029463 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0665edef37a5fbdde3776c2911710e97') in 0.057262 seconds 
+  Import took 0.065986 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 11.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 6344.
+Total: 12.867700 ms (FindLiveObjects: 0.637600 ms CreateObjectMapping: 0.191000 ms MarkObjects: 11.988300 ms  DeleteObjects: 0.049000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 440.063360 seconds.
+  path: Assets/Script/carcontroler.cs
+  artifactKey: Guid(1d9d4331cf1481f4ea8bbdb3a4463635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/carcontroler.cs using Guid(1d9d4331cf1481f4ea8bbdb3a4463635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd27f25043793c36278abf6a39e9bce6') in 0.020650 seconds 
+  Import took 0.052557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.977 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.0 MB.
+System memory in use after: 218.3 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5408.
+Total: 8.258000 ms (FindLiveObjects: 0.647800 ms CreateObjectMapping: 0.281200 ms MarkObjects: 7.283300 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.146 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.6 MB.
+System memory in use after: 217.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5411.
+Total: 8.243500 ms (FindLiveObjects: 0.678300 ms CreateObjectMapping: 0.159600 ms MarkObjects: 7.356500 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.6 MB.
+System memory in use after: 218.1 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5414.
+Total: 8.362800 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.305700 ms MarkObjects: 7.465000 ms  DeleteObjects: 0.045200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2638.609836 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders
+  artifactKey: Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders using Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b1383667f65497ab5835b071c160de') in 0.019613 seconds 
+  Import took 0.038554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.6 MB.
+System memory in use after: 218.1 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5417.
+Total: 10.364500 ms (FindLiveObjects: 0.786000 ms CreateObjectMapping: 0.414000 ms MarkObjects: 9.117400 ms  DeleteObjects: 0.045200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.6 MB.
+System memory in use after: 218.1 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5420.
+Total: 9.954700 ms (FindLiveObjects: 0.583100 ms CreateObjectMapping: 0.186600 ms MarkObjects: 9.140900 ms  DeleteObjects: 0.042300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 550.131706 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09655f1298ea93a865418d5e80e283c5') in 0.905606 seconds 
+  Import took 0.942729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
-  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec5f458bbee0226c93c7e181100cb47') in 0.049583 seconds 
-  Import took 0.058298 seconds .
+  Time since last request: 59.393170 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 4.mat
+  artifactKey: Guid(a269281bc94fa6946b901f3ae8046bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 4.mat using Guid(a269281bc94fa6946b901f3ae8046bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a49eb041b82e354ea3a7f4cf30a253') in 0.062774 seconds 
+  Import took 0.099030 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
-  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3126bd26ed965f8351b674ee43a8c2e7') in 0.052147 seconds 
-  Import took 0.061170 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 6.mat
+  artifactKey: Guid(da8c4203ccc01be45bd68baa2c86d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 6.mat using Guid(da8c4203ccc01be45bd68baa2c86d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a6fca5129a57202f5f9baef741fb6b') in 0.080811 seconds 
+  Import took 0.118742 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
-  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec5f458bbee0226c93c7e181100cb47') in 0.055323 seconds 
-  Import took 0.065115 seconds .
+  Time since last request: 5.528317 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab using Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869b51bdea820047bd2f944127c74536') in 0.037498 seconds 
+  Import took 0.080034 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
-  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14103e16c2018da539b0efa3e0b3eb43') in 0.098866 seconds 
-  Import took 0.107941 seconds .
+  Time since last request: 3.620553 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/A_Demo_Day.unity
+  artifactKey: Guid(11c9053ef7333134181fcd7f64fe6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/A_Demo_Day.unity using Guid(11c9053ef7333134181fcd7f64fe6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8277bfee89dc254de57fdd16f25e9395') in 0.012829 seconds 
+  Import took 0.044540 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5558.
+Total: 9.569500 ms (FindLiveObjects: 0.641000 ms CreateObjectMapping: 0.429700 ms MarkObjects: 8.436800 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.708272 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/B_Demo_Night.unity
+  artifactKey: Guid(5affd932bdaa36e408ad48b550217156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/B_Demo_Night.unity using Guid(5affd932bdaa36e408ad48b550217156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcc2ea58b6fe2014aa47ec32bd834be') in 0.055928 seconds 
+  Import took 0.093869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
-  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aeee030442a870813ba4305df40de') in 0.053535 seconds 
-  Import took 0.061958 seconds .
+  Time since last request: 22.037942 seconds.
+  path: Assets/Scenes/juego.unity
+  artifactKey: Guid(791c988ce38502345814da3fc6a7f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/juego.unity using Guid(791c988ce38502345814da3fc6a7f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27fd643eb29f3066766149f18334fb0') in 0.012464 seconds 
+  Import took 0.046636 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.004492 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
-  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aeee030442a870813ba4305df40de') in 0.054148 seconds 
-  Import took 0.063714 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.883 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.5 MB.
 
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5561.
+Total: 8.622100 ms (FindLiveObjects: 0.584600 ms CreateObjectMapping: 0.198600 ms MarkObjects: 7.784200 ms  DeleteObjects: 0.052000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 473.621300 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat
-  artifactKey: Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 1.mat using Guid(eb1271c07580ed44197f8dfcf2723e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9328059f94ab49f91ce5164379f30eb') in 0.044200 seconds 
-  Import took 0.055233 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
 
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5564.
+Total: 13.550000 ms (FindLiveObjects: 0.648700 ms CreateObjectMapping: 0.290200 ms MarkObjects: 12.514800 ms  DeleteObjects: 0.093800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat
-  artifactKey: Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas 2.mat using Guid(bef47c8352741d14eaf6d71fffcf867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32c4d4419af2bae7853cac25d6560ac') in 0.068571 seconds 
-  Import took 0.077612 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
 
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5567.
+Total: 8.592100 ms (FindLiveObjects: 0.598800 ms CreateObjectMapping: 0.407500 ms MarkObjects: 7.526800 ms  DeleteObjects: 0.056400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
-  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa7b0c375b862fa722fb9b21d58ac24') in 0.047304 seconds 
-  Import took 0.057329 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
 
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5570.
+Total: 9.406300 ms (FindLiveObjects: 0.682000 ms CreateObjectMapping: 0.376400 ms MarkObjects: 8.295400 ms  DeleteObjects: 0.050200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
-  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707c5bc47e4f9a549b6130147dcee6d3') in 0.065031 seconds 
-  Import took 0.073525 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
 
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5573.
+Total: 10.208800 ms (FindLiveObjects: 1.104400 ms CreateObjectMapping: 0.532600 ms MarkObjects: 8.518800 ms  DeleteObjects: 0.050600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.841 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5576.
+Total: 9.364500 ms (FindLiveObjects: 0.690800 ms CreateObjectMapping: 0.335000 ms MarkObjects: 8.274500 ms  DeleteObjects: 0.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.938 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5579.
+Total: 8.860200 ms (FindLiveObjects: 0.648500 ms CreateObjectMapping: 0.348300 ms MarkObjects: 7.811200 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.2 MB.
+System memory in use after: 218.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5582.
+Total: 9.520000 ms (FindLiveObjects: 0.607000 ms CreateObjectMapping: 0.302000 ms MarkObjects: 8.558800 ms  DeleteObjects: 0.050200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.140 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.2 MB.
+System memory in use after: 218.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5585.
+Total: 9.474500 ms (FindLiveObjects: 0.591700 ms CreateObjectMapping: 0.258600 ms MarkObjects: 8.561400 ms  DeleteObjects: 0.060900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.857 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.2 MB.
+System memory in use after: 218.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5588.
+Total: 9.602600 ms (FindLiveObjects: 0.675300 ms CreateObjectMapping: 0.303400 ms MarkObjects: 8.564900 ms  DeleteObjects: 0.056600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
