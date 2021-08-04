@@ -11,7 +11,7 @@ public class TarjetCamra2 : MonoBehaviour
     void Start()
     {
 
-        posicionRelativa = transform.position - personaje1.transform.position;
+        
 
     }
 
@@ -19,7 +19,6 @@ public class TarjetCamra2 : MonoBehaviour
     void LateUpdate()
     {
 
-        transform.position = personaje1.transform.position + posicionRelativa;
-
+        transform.position = personaje1.transform.position;
     }
 }
