@@ -6,6 +6,7 @@ using UnityEngine;
 public class AxleInfo {
     public WheelCollider leftWheel;
     public WheelCollider rightWheel;
+
     public bool motor;
     public bool steering;
    
@@ -16,6 +17,7 @@ public class carcontroler : MonoBehaviour
     public List<AxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
+
 
     public float motor;
     public float steering;
